@@ -166,10 +166,133 @@ hr{
 }
 
  
-.img{
+.img {
    display: flex;
    transition: transform 0.2s ease-out
 }
-img:hover {
+.img img:hover {
    transform: scale(1.01);
  }
+ .quem-somos{
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 58px;
+   display: flex;
+   margin: 10px;
+   padding: 10px;
+   
+ }
+
+ .text-quem-somos{
+   margin: 10px;
+   padding: 10px;
+   background: #1C7D4F;
+   box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+   width: 90%;
+   height: 350px;
+   border-radius: 10px;
+   display: flex; 
+   
+ }
+ .text-quem-somos p{
+   color: white;
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 40px;
+ }
+ .seccion{
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 58px;
+   display: flex;
+   margin: 10px;
+   padding: 10px;
+ }
+ .testimonios{
+   display: flex;
+   justify-content: center;
+ }
+ .testimonios img{
+   background: url(20230424_203514);
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   border-radius: 25px;
+   margin: 10px;
+   width: 350px;
+ }
+ .testimonios img:hover{
+   transform: scale(1.01);
+ }
+
+ .sliderfinal{
+   display: flex;
+   width: 100%;
+   padding: 10px;
+   justify-content: center;
+   
+ }
+ .sliderfinal img{
+   width: 350px;
+   margin: 10px;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   border-radius: 25px;
+ }
+ .sliderfinal :hover{
+   transform: scale(1.01);
+ }
+ footer{
+   background: #1C7D4F;
+   display: flex;
+   width: 100%;
+ }
+ .logo-footer{
+   width: 300px;
+   height: 300px;
+   display: flex;
+ }
+ .texto-contacto {
+   color: white;
+   display: flex;
+   line-height: 19px;
+   font-size: 15px;
+   width: 20%;
+   width: auto;
+   position: absolute;
+   left: 75%;
+ }
+
+ .email{
+   color: white;
+   display: flex;
+   align-items: center;
+   position: relative;
+   left: 43%;
+   align-items: end;
+   width: 0;
+
+ }
+ .iconos {
+   display: flex;
+   align-items: center;
+   left: 58%;
+   position: relative;
+   width: auto;
+
+    }
+
+    .instagram:hover{
+      transform: scale(1.1);
+    }
+.instagram{
+   width: 70px;
+   margin: 0px;
+}
+.whatsapp{
+   margin: 5px;
+}
+
+.facebook:hover{
+   transform: scale(1.1);
+}
+.whatsapp:hover{
+   transform: scale(1.1);
+}
