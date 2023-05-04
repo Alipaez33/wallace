@@ -8,14 +8,14 @@
 header{
     background-color: #1C7D4F;
     height: 200px;
-    width: auto;
+    width: 100%;
 }
 .logo{
     width: 250px;
     height: 250px;
     display: flex;
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     position: relative;
     top: -80px;
     }
@@ -58,7 +58,6 @@ button{
     background-color:white;
     position: relative;
     left: 80%;
-    top: 50%;
     width: 200px;
     height: 80px;
     border: #1C7D4F;
@@ -73,7 +72,6 @@ button{
     font-size: 15px;
     display: flex;
     cursor: pointer;
-    font-size:15px;
     font-weight: 550;
     justify-content: end;
  }
@@ -249,6 +247,9 @@ hr{
    height: 300px;
    display: flex;
  }
+ .logo-footer:hover{
+  transform: scale(1.01);
+ }
  .texto-contacto {
    color: white;
    display: flex;
@@ -296,3 +297,48 @@ hr{
 .whatsapp:hover{
    transform: scale(1.1);
 }
+
+@media screen and (max-width: 320px) {
+  
+  header{
+    width: auto;
+    height: 250px;
+  }
+  .logo{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    
+  }
+a .logo{
+  display: flex;
+  top: 0%;
+}
+  header .navbar-nav{
+    font-size: 10px;
+  }
+  div .navbar-nav{
+    display: flex;
+    top: 50%;
+  }
+
+  button{
+    top: 25%;
+    width: 100px;
+    height: 80px;
+    flex-direction: column;
+    left: 65%;
+    
+  }
+  button a{
+    font-size: 10px;
+    }
+
+  button img{
+    width: 30px;
+    margin: 3px;
+    
+  }
+}
+
+  
