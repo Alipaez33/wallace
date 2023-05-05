@@ -5,6 +5,7 @@
 
     /* Barra de navegacion */
 
+     
 header{
     background-color: #1C7D4F;
     height: 200px;
@@ -14,8 +15,8 @@ header{
     width: 250px;
     height: 250px;
     display: flex;
-    margin: 10;
-    padding: 10;
+    margin: 0px;
+    padding: 0px;
     position: relative;
     top: -80px;
     }
@@ -53,8 +54,8 @@ button{
     text-decoration: none;
     list-style: none;
     border-radius: 30px;
-    padding: 10px;
-    margin: 5px;
+    
+    margin: 0px;
     background-color:white;
     position: relative;
     left: 80%;
@@ -96,7 +97,7 @@ button{
  h1{
    font-size: 60px;
    display: flex;
-   margin: 10px;
+   
    padding: 10px;
    position: absolute;
    top: 50%;
@@ -107,8 +108,8 @@ button{
  .subtitulo{
    font-size: 30px;
    display: flex;
-   margin: 10px;
-   padding: 10px;
+   
+   
    position: absolute;
    top: 65%;
    left: 10%;
@@ -298,7 +299,11 @@ hr{
    transform: scale(1.1);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
+  
+  /*header*/
+
+ 
   
   header{
     width: auto;
@@ -328,7 +333,9 @@ a .logo{
     height: 80px;
     flex-direction: column;
     left: 65%;
+    padding: 10px;
     
+
   }
   button a{
     font-size: 10px;
@@ -336,9 +343,241 @@ a .logo{
 
   button img{
     width: 30px;
-    margin: 3px;
     
+    
+  }
+
+/*main*/
+
+.fondoimagen{
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+  h1{
+    font-size: 30px;
+    width: 100%;
+    
+    left: 0;
+    top: 65%;
+    text-shadow: 0 0 8px rgb(0, 0, 0, 0.8) ;
+
+}
+.subtitulo{
+  font-size: 20px;
+  width: 90%;
+  top: 80%;
+  line-height: 30px;
+
+}
+h2 .subtitulo{
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  flex-direction: column;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+.remodelaciones{
+  width: 100%;
+  margin: auto;
+  height: 300px;
+  margin-bottom: 10px;
+}
+h3{
+  font-size: 30px;
+  padding: 10px;
+}
+p{
+  font-size: 20px;
+  width: 100%;
+  padding: 0px;
+  line-height: 25px;
+}
+.redes{
+  width: 100%;
+  margin: 0;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.img {
+  flex-direction: column;
+  margin: 10px;
+}
+.img img{
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+ .quem-somos{
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  
+}
+  .text-quem-somos{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    display: flex;
+  }
+  .text-quem-somos p{
+    font-size: 15px;
+    line-height: 25px;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+  .seccion{
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    
+  }
+ 
+  .testimonios{
+    flex-direction: column;
+    width: 100%;
+    
+    
+  }
+  .testimonios img{
+    width: 100%;
+    margin: 3px;
+    padding: 0;
+  }
+  .sliderfinal{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+
+  .sliderfinal img{
+    width: 100%;
+    margin: 5px;
+  }
+
+  .footer{
+    width: 100%;
+
+  }
+  .logo-footer{
+    width: 200px;
+    height: 200px;
+  }
+  .texto-contacto{
+    display: none;
+  }
+  .iconos{
+    
+    left: 0;
+
+  }
+
+  .facebook{
+    width: 30px;
+  }
+  .instagram{
+    width: 40px;
+  }
+  .whatsapp img{
+    width: 30px;
+  }
+  .email{
+    display: none;
   }
 }
 
+@media screen and (min-width: 480px){
+
+header{
+  width: 100%;
+  height: 350px;
+}
+ .logo{
+  width: 250px;
+  height: 250px;
+ }
+ header .navbar-nav{
+  font-size: 20px;
+ }
+ button{
+  display: flex;
+  width: 150px;
+  height: 80px;
+  justify-content: center;
+ }
+ button a{
+  font-size: 15px;
+  }
+  button img{
+    width: 30px;
+    
+   }
+   h1{
+    font-size: 40px;
+    top: 100%;
+    display: flex;
+    justify-content: center;
+   }
+   .subtitulo{
+    top: 120%;
+    text-shadow: 0 0 8px rgb(0, 0, 0, 0.8) ;
+
+   }
+   .text-quem-somos p{
+    font-size: 20px;
+    line-height: 25px;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+
   
+  .iconos{
+    display: flex;
+    left: 160px;
+    align-items: center;
+    align-items: end;
+    
+  }
+ 
+
+  .texto-contacto{
+  display: block;
+  line-height: 15px;
+  font-size: 10px;
+  display: flex;
+  text-align: start;
+  justify-content: center;
+
+}
+.email{
+  display: block;
+  display: flex;
+  left: -90px;
+  font-size: 15px;
+  line-height: 20px;
+  justify-content: end;
+  text-align: start;
+  margin-top: 20px;
+  white-space: nowrap;
+
+}
+
+
+
+
+
+
+
+
+
+
+}
