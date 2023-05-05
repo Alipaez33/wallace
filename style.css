@@ -494,6 +494,47 @@ p{
   }
 }
 
+@media screen and (min-width: 350px) {
+
+  h1{
+    justify-content: center ;
+    display: flex;
+  }
+  .subtitulo{
+    justify-content: center;
+    padding: 5px;
+    
+  }
+  .iconos{
+    left: 40px;
+  }
+ }
+
+ @media screen and (min-width: 380px) {
+  .iconos{
+    left: 70px;
+    justify-content: space-around;
+    display: flex;
+    top: -50px;
+  }
+   
+  .email{
+    display: block;
+    left: -100px;
+    font-size: 13px;
+    top: 80px;
+    font-weight: 400;
+    
+    height: 0;
+  }
+  .email p{
+    display: none;
+    margin: 0;
+  }
+
+ }
+
+
 @media screen and (min-width: 480px){
 
 header{
