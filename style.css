@@ -54,7 +54,6 @@ button{
     text-decoration: none;
     list-style: none;
     border-radius: 30px;
-    
     margin: 0px;
     background-color:white;
     position: relative;
@@ -97,10 +96,10 @@ button{
  h1{
    font-size: 60px;
    display: flex;
-   
+   top: 100%;
    padding: 10px;
    position: absolute;
-   top: 50%;
+   text-align: center;
    left: 10%;
    color: white;
    text-shadow: 0 0 8px rgb(0, 0, 0, 0.8) ;
@@ -306,7 +305,7 @@ hr{
  
   
   header{
-    width: auto;
+    width: 100%;
     height: 250px;
   }
   .logo{
@@ -357,16 +356,16 @@ a .logo{
   h1{
     font-size: 30px;
     width: 100%;
-    
+    top: 80%;
     left: 0;
-    top: 65%;
+    
     text-shadow: 0 0 8px rgb(0, 0, 0, 0.8) ;
 
 }
 .subtitulo{
   font-size: 20px;
   width: 90%;
-  top: 80%;
+  top: 100%;
   line-height: 30px;
 
 }
@@ -443,9 +442,7 @@ p{
   .testimonios{
     flex-direction: column;
     width: 100%;
-    
-    
-  }
+    }
   .testimonios img{
     width: 100%;
     margin: 3px;
@@ -499,11 +496,13 @@ p{
   h1{
     justify-content: center ;
     display: flex;
+    top: 80%;
   }
   .subtitulo{
     justify-content: center;
     padding: 5px;
-    
+    top: 100%;
+    width:auto;
   }
   .iconos{
     left: 40px;
@@ -515,7 +514,11 @@ p{
     left: 70px;
     justify-content: space-around;
     display: flex;
-    
+    align-items: flex-start;
+    margin-top: 10%;
+  }
+  .facebook{
+    margin: 2px;
   }
    
   .email{
@@ -534,6 +537,23 @@ p{
 
  }
 
+ @media screen and (min-width: 420px){
+  header .navbar-nav{
+    font-size: 15px;
+  }
+  .iconos{
+    flex-direction: column;
+    left: 40%;
+  }
+  .email{
+    display: flex;
+    left: -10%;
+    margin-top: 10%;
+  }
+
+
+
+ } 
 
 @media screen and (min-width: 480px){
 
@@ -601,3 +621,173 @@ header{
 }
 
 }
+
+@media screen and (min-width: 768px){
+  header{
+    width: 100%;
+    
+  }
+  .logo{
+    width: 300px;
+    height: 300px;
+    
+  }
+  header .navbar-nav{
+    font-size: 25px;
+  }
+  button{
+    display: flex;
+    width: 200px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    left: 70%;
+    top: 30%;
+   }
+   h1{
+    font-size: 50px;
+    top: 100%*;
+    display: flex;
+    justify-content: center*;
+   }
+   .subtitulo{
+    display: flex;
+    left: 10%;
+    font-size: 30px;
+    top: 130%;
+    text-shadow: 0 0 8px rgb(0, 0, 0, 0.8) ;
+
+   }
+   section{
+    flex-direction: row;
+    display: flex;
+    }
+    .remodelaciones{
+      width: 100%;
+      margin: auto;
+      height: 250px;
+      margin-bottom: 10px;
+    }
+  
+   div .redes{
+    margin: 10px;
+    padding: 10%;
+    }
+    .img{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+    }
+    .img img{
+    width: 50%;
+    padding: 5px;
+    }
+    .quem-somos{
+    font-size: 50px;
+    margin-top: 20px;
+    }
+    .text-quem-somos{
+    margin-top: 50px;
+    height: 300px;
+    }
+    .text-quem-somos p{
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    }
+    .seccion{
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    font-size: 40px;
+    }
+    .testimonios {
+    display: flex;
+    flex-direction: row;
+    width: 50%;  
+    justify-content: flex-start;
+      }
+   .testimonios img{
+    width: 185px;
+    padding: 0;
+    left: 50%;
+      }
+   .sliderfinal{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    width: 50%;
+    justify-content: flex-start;
+
+      }
+    .sliderfinal img{
+    width: 180px;
+    margin: 5px;
+      }
+    .logo-footer{
+    width: 300px;
+    height: 300px;
+    }
+    .iconos{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 2%;
+    }
+    .facebook{
+    margin-bottom: 3px;
+
+    }
+    .texto-contacto{
+      display: block;
+      width: 35%;
+      left: 63%;
+      margin-top: 10%;
+    }
+    .email{
+      white-space: nowrap;  
+    left: 15%;
+    margin-top: 15%;
+
+    }
+
+
+
+
+
+
+
+}
+@media screen and (min-width: 992px){
+ .subtitulo{
+  left: 20%;
+ }
+ .text-quem-somos{
+  margin-top: 50px;
+  height: 250px;
+  }
+  .text-quem-somos p{
+    font-size: 22px;
+    line-height: 30px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    }
+    .testimonios img{
+      width: 240px;
+      padding: 0;
+      left: 50%;
+        }
+
+        .sliderfinal img{
+          width: 235px;
+          margin: 5px;
+            }
+
+
+}
+
+
