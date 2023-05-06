@@ -515,7 +515,7 @@ p{
     left: 70px;
     justify-content: space-around;
     display: flex;
-    top: -50px;
+    
   }
    
   .email{
@@ -583,42 +583,21 @@ header{
   
   .iconos{
     display: flex;
-    left: 160px;
-    align-items: center;
-    align-items: end;
+    left: 45%;
+    flex-direction: column;
     
   }
- 
-
-  .texto-contacto{
-  display: block;
-  line-height: 15px;
-  font-size: 10px;
-  display: flex;
-  text-align: start;
-  justify-content: center;
-
-}
+  
 .email{
   display: block;
   display: flex;
-  left: -90px;
+  align-items: end;
   font-size: 15px;
   line-height: 20px;
-  justify-content: end;
+  left: -5%;
   text-align: start;
-  margin-top: 20px;
-  white-space: nowrap;
-
+  margin-top: 8%;
+    
 }
-
-
-
-
-
-
-
-
-
 
 }
