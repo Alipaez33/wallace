@@ -646,9 +646,9 @@ header{
    }
    h1{
     font-size: 50px;
-    top: 100%*;
+    top: 100%;
     display: flex;
-    justify-content: center*;
+    justify-content: center;
    }
    .subtitulo{
     display: flex;
@@ -786,7 +786,15 @@ header{
           width: 235px;
           margin: 5px;
             }
+            .texto-contacto{
+              font-size: 20px;
 
+            }
+    .email{
+      left: 21%;
+      font-size: 20px;
+    }
+    
 
 }
 
