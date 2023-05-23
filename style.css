@@ -1,593 +1,523 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: 1px solid red
-    ;
-  
-  }
-
-    /* Barra de navegacion */
-
-     
-header{
-    background-color: #1C7D4F;
-    
-    }
-  .logo {
-    width: 25%;
-    min-width: 200px;
-    display: flex;
-    
-    }
-   
-   
-   
-.logo:hover{
-    transform: scale(1.01);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px solid red;
 }
-header .navbar-nav{
-    justify-content: center;
-    position: relative;
-    top: 80px;
-    font-size: 30px;
-    font-weight: bolder;
-    letter-spacing: 2px;
-    margin-right: 10px;
-    display: flex;
-    list-style: none;
-    
- }
- .nav-link{
-    text-decoration: none;
-    margin: 10px;
-    color: white;
-    cursor: pointer;
-    display: flex;
-    
- }
- .nav-link:hover{
-    color: black;
- }
-button{
-    
-    display:flex ;
-    align-items: center;
-    text-decoration: none;
-    list-style: none;
-    border-radius: 30px;
-    width: 200px;
-    height: 80px;
-    border: hsl(152, 63%, 30%);
-    float: right
- }
- button:hover{
-    transform: scale(1.1);
- }
- button a{
-    list-style: none;
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
-    display: flex;
-    cursor: pointer;
-    font-weight: 550;
-    justify-content: end;
- }
- 
- div button{
-    justify-content: end;
-    display: flex;
- }
- /* encabezaddo */
- .fondoimagen {
-   width: 100%;
-   height: 600px;
-   display: flex;
-   position: relative;
-   
-   }
- .fondoimagen img  {
-   width: 100%;
-   height: 100%;
-   
- }
- h1{
-   font-size: 60px;
-   display: flex;
-   top: 100%;
-   padding: 10px;
-   
-   text-align: center;
-   left: 10%;
-   color: white;
-   text-shadow: 0 0 8px rgb(0, 0, 0, 0.8) ;
- }
- .subtitulo{
-   font-size: 30px;
-   display: flex;
-   text-align: center;
-   top: 65%;
-   left: 10%;
-   color: white;
-   text-shadow: 0 0 8px rgb(0, 0, 0, 0.8) ;
- }
- .titulos{
+
+/* Barra de navegacion */
+
+header {
+  background-color: #1c7d4f;
+}
+.logo {
+  width: 25%;
+  min-width: 200px;
+  display: flex;
+}
+
+.logo:hover {
+  transform: scale(1.01);
+}
+header .navbar-nav {
+  justify-content: center;
+  position: relative;
+  top: 80px;
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-right: 10px;
+  display: flex;
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+}
+.nav-link:hover {
+  color: black;
+}
+button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  border-radius: 30px;
+  width: 200px;
+  height: 80px;
+  border: hsl(152, 63%, 30%);
+  float: right;
+}
+button:hover {
+  transform: scale(1.1);
+}
+button a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  display: flex;
+  cursor: pointer;
+  font-weight: 550;
+  justify-content: end;
+}
+
+div button {
+  justify-content: end;
+  display: flex;
+}
+/* encabezaddo */
+.fondoimagen {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  position: relative;
+}
+.fondoimagen img {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  font-size: 60px;
+  display: flex;
+  top: 100%;
+  padding: 10px;
+
+  text-align: center;
+  left: 10%;
+  color: white;
+  text-shadow: 0 0 8px rgb(0, 0, 0, 0.8);
+}
+.subtitulo {
+  font-size: 30px;
+  display: flex;
+  text-align: center;
+  top: 65%;
+  left: 10%;
+  color: white;
+  text-shadow: 0 0 8px rgb(0, 0, 0, 0.8);
+}
+.titulos {
   height: 500px;
   background-image: url("./asset/img/WhatsApp Image 2023-05-04 at 15.22.48.jpeg");
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content:center ;
- }
- section{
-   display: flex;
- }
- .remodelaciones{
-   width: 50%;
-   background: rgba(217, 217, 217, 0.5);
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   margin: 10px;
-   padding: 20px;
-   height: 250px;
- }
-h3{
-   display: flex;
-   font-weight: 400;
-   font-size: 40px;
-   line-height: 29px;
-   margin: 10px;
-   padding: 20px;
+  justify-content: center;
 }
-p{
-   display: flex;
-   font-weight: 500;
-   font-size: 20px;
-   line-height: 29px;
-   margin: 10px;
-   padding: 20px;
+section {
+  display: flex;
 }
-.redes{
-   width: 50%;
-   background: rgba(217, 217, 217, 0.5);
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   margin: 10px;
-   padding: 20px;
-   height: 250px;
+.remodelaciones {
+  width: 50%;
+  background: rgba(217, 217, 217, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+  padding: 20px;
+  height: 250px;
 }
-hr{
-   border: 3px solid rgba(28, 125, 79, 0.9);
+h3 {
+  display: flex;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 29px;
+  margin: 10px;
+  padding: 20px;
+}
+p {
+  display: flex;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  margin: 10px;
+  padding: 20px;
+}
+.redes {
+  width: 50%;
+  background: rgba(217, 217, 217, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+  padding: 20px;
+  height: 250px;
+}
+hr {
+  border: 3px solid rgba(28, 125, 79, 0.9);
 }
 .img img {
-   width: 50%;
-   height: 650px;
-   display: flex;
-   margin: 5px;
-   border-radius: 10px;
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   transition: transform 0.2s ease-out
+  width: 50%;
+  height: 650px;
+  display: flex;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease-out;
 }
 
- 
 .img {
-   display: flex;
-   transition: transform 0.2s ease-out
+  display: flex;
+  transition: transform 0.2s ease-out;
 }
 .img img:hover {
-   transform: scale(1.01);
- }
- .quem-somos{
-   font-size: 40px;
-   font-weight: 600;
-   line-height: 58px;
-   display: flex;
-   margin: 10px;
-   padding: 10px;
-   
- }
-
- .text-quem-somos{
-   margin: 10px;
-   padding: 10px;
-   background: #1C7D4F;
-   box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
-   width: 90%;
-   height: 350px;
-   border-radius: 10px;
-   display: flex; 
-   
- }
- .text-quem-somos p{
-   color: white;
-   font-weight: 600;
-   font-size: 30px;
-   line-height: 40px;
- }
- .seccion{
-   font-size: 40px;
-   font-weight: 600;
-   line-height: 58px;
-   display: flex;
-   margin: 10px;
-   padding: 10px;
- }
- .testimonios{
-   display: flex;
-   justify-content: center;
-   width: 100%;
- }
- .testimonios img{
-   background: url(20230424_203514);
-   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-   border-radius: 25px;
-   margin: 10px;
-   
- }
- .testimonios img:hover{
-   transform: scale(1.01);
- }
-
- .sliderfinal{
-   display: flex;
-   width: 100%;
-   padding: 10px;
-   justify-content: center;
-   
- }
- .sliderfinal img{
-   
-   margin: 10px;
-   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-   border-radius: 25px;
- }
- .sliderfinal :hover{
-   transform: scale(1.01);
- }
- footer{
-   background: #1C7D4F;
-   display: flex;
-   width: 100%;
- }
- .logo-footer{
-   width: 300px;
-   height: 300px;
-   display: flex;
- }
- .logo-footer:hover{
   transform: scale(1.01);
- }
- .texto-contacto {
-   color: white;
-   display: flex;
-   line-height: 19px;
-   font-size: 15px;
-   width: 20%;
-   width: auto;
-   justify-content: end;
-   
- }
- p .texto-contacto{
+}
+.quem-somos {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 58px;
   display: flex;
-  float: right;
- }
-
- .email{
-   color: white;
-   display: flex;
-   align-items: center;
-   
-   left: 43%;
-   align-items: end;
-   width: 0;
-
- }
- .iconos {
-   display: flex;
-   align-items: center;
-   left: 58%;
-   position: relative;
-   width: auto;
-
-    }
-
-    .instagram:hover{
-      transform: scale(1.1);
-    }
-.instagram{
-   width: 70px;
-   margin: 0px;
-}
-.whatsapp{
-   margin: 5px;
+  margin: 10px;
+  padding: 10px;
 }
 
-.facebook:hover{
-   transform: scale(1.1);
+.text-quem-somos {
+  margin: 10px;
+  padding: 10px;
+  background: #1c7d4f;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+  width: 90%;
+  height: 350px;
+  border-radius: 10px;
+  display: flex;
 }
-.whatsapp:hover{
-   transform: scale(1.1);
+.text-quem-somos p {
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+}
+.seccion {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 58px;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+.testimonios {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.testimonios img {
+  background: url(20230424_203514);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 25px;
+  margin: 10px;
+}
+.testimonios img:hover {
+  transform: scale(1.01);
 }
 
+.sliderfinal {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+}
+.sliderfinal img {
+  margin: 10px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 25px;
+}
+.sliderfinal :hover {
+  transform: scale(1.01);
+}
+footer {
+  background: #1c7d4f;
+  padding: 20px;
+  color: white;
+}
+.footer-inner {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  gap: 20px;
+  justify-content: center;
+}
+.footer-inner > * {
+  margin-inline: auto;
+}
+.footer-logo {
+  width: 300px;
+  height: 200px;
+}
+.logo-footer {
+  width: 40%;
+}
+.footer-logo img {
+  min-width: 100px;
+  display: flex;
+}
+.footer-data {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.iconos {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.iconos a {
+  /*  este es para simular los iconos */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.foooter-copy {
+  text-align: center;
+}
 @media screen and (min-width: 320px) {
-  
   /*header*/
 
- 
-  
-  header{
+  header {
     width: 100%;
-    
   }
-  
 
-  header .navbar-nav{
+  header .navbar-nav {
     font-size: 10px;
   }
-  div .navbar-nav{
+  div .navbar-nav {
     display: flex;
     top: 50%;
   }
 
-  button{
+  button {
     top: 25%;
     width: 100px;
     height: 80px;
     flex-direction: column;
     left: 65%;
     padding: 10px;
-    
-
   }
-  button a{
+  button a {
     font-size: 10px;
-    }
-
-  button img{
-    width: 30px;
-    
-    
   }
 
-/*main*/
+  button img {
+    width: 30px;
+  }
 
-.fondoimagen{
-  width: 100%;
-  height: 500px;
-  display: flex;
-}
-  h1{
+  /*main*/
+
+  .fondoimagen {
+    width: 100%;
+    height: 500px;
+    display: flex;
+  }
+  h1 {
     font-size: 30px;
     width: 100%;
     top: 10%;
     left: 0;
-    
-    text-shadow: 0 0 8px rgb(0, 0, 0, 0.8) ;
 
-}
-.subtitulo{
-  font-size: 20px;
-  width: 90%;
-  top: 100%;
-  line-height: 30px;
-  display: flex;
-  justify-content: center;
-}
-h2 .subtitulo{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
+    text-shadow: 0 0 8px rgb(0, 0, 0, 0.8);
+  }
+  .subtitulo {
+    font-size: 20px;
+    width: 90%;
+    top: 100%;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  h2 .subtitulo {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
 
-section{
-  flex-direction: column;
-  margin: 10px;
-  margin-bottom: 10px;
-}
-.remodelaciones{
-  width: 100%;
-  margin: auto;
-  height: 300px;
-  margin-bottom: 10px;
-}
-h3{
-  font-size: 30px;
-  padding: 10px;
-}
-p{
-  font-size: 20px;
-  width: 100%;
-  padding: 0px;
-  line-height: 25px;
-}
-.redes{
-  width: 100%;
-  margin: 0;
-  height: 250px;
-  margin-bottom: 10px;
-}
-.img {
-  flex-direction: column;
-  margin: 10px;
-}
-.img img{
-  width: 100%;
-  margin: 0px;
-  margin-bottom: 10px;
-}
- .quem-somos{
-  justify-content: center;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 10px;
-  
-}
-  .text-quem-somos{
+  section {
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 10px;
+  }
+  .remodelaciones {
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: 30px;
+    padding: 10px;
+  }
+  p {
+    font-size: 20px;
+    width: 100%;
+    padding: 0px;
+    line-height: 25px;
+  }
+  .redes {
+    width: 100%;
+    margin: 0;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+  .img {
+    flex-direction: column;
+    margin: 10px;
+  }
+  .img img {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  .quem-somos {
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .text-quem-somos {
     width: 100%;
     margin: 0;
     padding: 0;
     height: 400px;
     display: flex;
   }
-  .text-quem-somos p{
+  .text-quem-somos p {
     font-size: 15px;
     line-height: 25px;
     width: 100%;
     padding: 10px;
     margin: 0;
   }
-  .seccion{
+  .seccion {
     justify-content: center;
     display: flex;
     margin: 10px;
-    
   }
- 
-  .testimonios{
+
+  .testimonios {
     flex-direction: column;
-    
-    }
-  .testimonios img{
+  }
+  .testimonios img {
     width: auto;
     margin: 3px;
     padding: 0;
   }
-  .sliderfinal{
+  .sliderfinal {
     flex-direction: column;
     width: 100%;
     margin-bottom: 10px;
   }
-  
 
-  .sliderfinal img{
+  .sliderfinal img {
     width: 100%;
     margin: 5px;
   }
 
-  .footer{
-  width: auto;
+  footer {
+    width: auto;
+  }
 
-  }
-  .logo-footer{
-    width: 200px;
-    height: 200px;
-  }
-  .texto-contacto{
+  .texto-contacto {
     display: none;
   }
-  .iconos{
-    
-    left: 0;
 
-  }
-
-  .facebook{
+  .facebook {
     width: 30px;
   }
-  .instagram{
+  .instagram {
     width: 40px;
   }
-  .whatsapp img{
+  .whatsapp img {
     width: 30px;
   }
-  .email{
+  .email {
     display: none;
   }
 }
 
 @media screen and (min-width: 350px) {
-
-  h1{
-    justify-content: center ;
+  h1 {
+    justify-content: center;
     display: flex;
     top: 80%;
   }
-  .subtitulo{
+  .subtitulo {
     justify-content: center;
     padding: 5px;
     top: 100%;
-    width:auto;
+    width: auto;
   }
-  .iconos{
+  .iconos {
     left: 40px;
   }
- }
+}
 
- @media screen and (min-width: 380px) {
-  .iconos{
+@media screen and (min-width: 380px) {
+  .iconos {
     left: 70px;
     justify-content: space-around;
     display: flex;
     align-items: flex-start;
     margin-top: 10%;
   }
-  .facebook{
+  .facebook {
     margin: 2px;
   }
-   
-  
-  .email p{
+
+  .email p {
     display: none;
-    white-space: nowrap;  
-
+    white-space: nowrap;
   }
+}
 
- }
-
- @media screen and (min-width: 420px){
-  header .navbar-nav{
+@media screen and (min-width: 420px) {
+  header .navbar-nav {
     font-size: 15px;
   }
-  .iconos{
+  .iconos {
     flex-direction: column;
     left: 40%;
   }
-  .email{
-    display: flex;
-    left: -10%;
-    margin-top: 10%;
-  }
-
-
-
- } 
-
-@media screen and (min-width: 480px){
-
-header{
-  width: 100%;
-  
 }
- 
- header .navbar-nav{
-  font-size: 20px;
- }
- button{
-  display: flex;
-  width: 150px;
-  height: 80px;
-  justify-content: center;
- }
- button a{
-  font-size: 15px;
+
+@media screen and (min-width: 480px) {
+  header {
+    width: 100%;
   }
-  button img{
+
+  header .navbar-nav {
+    font-size: 20px;
+  }
+  button {
+    display: flex;
+    width: 150px;
+    height: 80px;
+    justify-content: center;
+  }
+  button a {
+    font-size: 15px;
+  }
+  button img {
     width: 30px;
-    
-   }
-   h1{
+  }
+  h1 {
     font-size: 40px;
     top: 100%;
     display: flex;
     justify-content: center;
-   }
-   .subtitulo{
+  }
+  .subtitulo {
     top: 120%;
-    text-shadow: 0 0 8px rgb(0, 0, 0, 0.8) ;
-
-   }
-   .text-quem-somos p{
+    text-shadow: 0 0 8px rgb(0, 0, 0, 0.8);
+  }
+  .text-quem-somos p {
     font-size: 20px;
     line-height: 25px;
     width: 100%;
@@ -595,38 +525,33 @@ header{
     margin: 0;
   }
 
-  
-  .iconos{
+  .iconos {
     display: flex;
     left: 45%;
     flex-direction: column;
-    
   }
-  
-.email{
-  display: block;
-  display: flex;
-  align-items: end;
-  font-size: 15px;
-  line-height: 20px;
-  left: -5%;
-  text-align: start;
-  margin-top: 8%;
-    
+
+  .email {
+    display: block;
+    display: flex;
+    align-items: end;
+    font-size: 15px;
+    line-height: 20px;
+    left: -5%;
+    text-align: start;
+    margin-top: 8%;
+  }
 }
 
-}
-
-@media screen and (min-width: 768px){
-  header{
+@media screen and (min-width: 768px) {
+  header {
     width: 100%;
-    
   }
-  
-  header .navbar-nav{
+
+  header .navbar-nav {
     font-size: 25px;
   }
-  button{
+  button {
     display: flex;
     width: 200px;
     height: 80px;
@@ -634,153 +559,133 @@ header{
     align-items: center;
     left: 70%;
     top: 30%;
-   }
-   h1{
+  }
+  h1 {
     font-size: 50px;
     top: 100%;
     display: flex;
     justify-content: center;
-   }
-   .subtitulo{
+  }
+  .subtitulo {
     display: flex;
     left: 10%;
     font-size: 30px;
     top: 130%;
-    text-shadow: 0 0 8px rgb(0, 0, 0, 0.8) ;
-
-   }
-   section{
+    text-shadow: 0 0 8px rgb(0, 0, 0, 0.8);
+  }
+  section {
     flex-direction: row;
     display: flex;
-    }
-    .remodelaciones{
-      width: 100%;
-      margin: auto;
-      height: 250px;
-      margin-bottom: 10px;
-    }
-  
-   div .redes{
+  }
+  .remodelaciones {
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+
+  div .redes {
     margin: 10px;
     padding: 10%;
-    }
-    .img{
+  }
+  .img {
     width: 100%;
     flex-direction: row;
     display: flex;
     margin: auto;
-    }
-    .img img{
+  }
+  .img img {
     width: 50%;
     padding: 5px;
-    }
-    .quem-somos{
+  }
+  .quem-somos {
     font-size: 50px;
     margin-top: 20px;
-    }
-    .text-quem-somos{
+  }
+  .text-quem-somos {
     margin-top: 50px;
     height: 300px;
-    }
-    .text-quem-somos p{
+  }
+  .text-quem-somos p {
     font-size: 20px;
     line-height: 30px;
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    }
-    .seccion{
+  }
+  .seccion {
     justify-content: center;
     display: flex;
     margin: 20px;
     font-size: 40px;
-    }
-    .testimonios {
+  }
+  .testimonios {
     display: flex;
     flex-direction: row;
-    
+
     justify-content: flex-start;
-      }
-   .testimonios img{
+  }
+  .testimonios img {
     width: 24%;
     padding: 0;
     left: 50%;
-      }
-   .sliderfinal{
+  }
+  .sliderfinal {
     display: flex;
     flex-direction: row;
     width: 100%;
     width: 50%;
     justify-content: flex-start;
-
-      }
-    .sliderfinal img{
+  }
+  .sliderfinal img {
     width: 48%;
     margin: 5px;
-      }
-    .logo-footer{
+  }
+  .logo-footer {
     width: 300px;
-    height: 300px;
-    }
-    .iconos{
+  }
+  .iconos {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
     margin-bottom: 2%;
-    }
-    .facebook{
-    margin-bottom: 3px;
-
-    }
-    .texto-contacto{
-      display: block;
-      width: 35%;
-      left: 63%;
-      margin-top: 10%;
-    }
-    .email{
-      white-space: nowrap;  
-    left: 15%;
-    margin-top: 15%;
-
-    }
-
-}
-@media screen and (min-width: 992px){
- .subtitulo{
-  left: 20%;
- }
- .text-quem-somos{
-  margin-top: 50px;
-  height: 250px;
   }
-  .text-quem-somos p{
+
+  .facebook {
+    margin-bottom: 3px;
+  }
+  .texto-contacto {
+    display: block;
+
+    left: 63%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .subtitulo {
+    left: 20%;
+  }
+  .text-quem-somos {
+    margin-top: 50px;
+    height: 250px;
+  }
+  .text-quem-somos p {
     font-size: 22px;
     line-height: 30px;
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    }
-    .testimonios img{
-      
-      padding: 0;
-      
-        }
+  }
+  .testimonios img {
+    padding: 0;
+  }
 
-        .sliderfinal img{
-          
-          margin: 5px;
-            }
-            .texto-contacto{
-              font-size: 20px;
-
-            }
-    .email{
-      
-      font-size: 20px;
-    }
-    
-
+  .sliderfinal img {
+    margin: 5px;
+  }
+  .texto-contacto {
+    font-size: 20px;
+  }
+  .email {
+    font-size: 20px;
+  }
 }
-
-
