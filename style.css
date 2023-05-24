@@ -138,7 +138,7 @@ hr {
   width: 50%;
   height: 650px;
   display: flex;
-  margin: 5px;
+
   border-radius: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition: transform 0.2s ease-out;
@@ -224,20 +224,19 @@ footer {
   margin-bottom: 20px;
   gap: 20px;
   justify-content: center;
+  align-items: center;
 }
 .footer-inner > * {
   margin-inline: auto;
 }
 .footer-logo {
   width: 300px;
-  height: 200px;
 }
 .logo-footer {
   width: 50%;
 }
 .footer-logo img {
   min-width: 100px;
-  display: flex;
 }
 .footer-data {
   max-width: 300px;
@@ -307,9 +306,12 @@ footer {
   /*main*/
 
   .titulos {
+    height: 400px;
     background-image: url("./asset/img/WhatsApp Image 2023-05-04 at 15.22.48.jpeg");
     background-size: cover;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   h1 {
     font-size: 30px;
@@ -461,7 +463,6 @@ footer {
     justify-content: space-around;
     display: flex;
     align-items: flex-start;
-    margin-top: 10%;
   }
   .facebook {
     margin: 2px;
@@ -478,8 +479,15 @@ footer {
     font-size: 15px;
   }
   .iconos {
-    flex-direction: column;
     left: 40%;
+  }
+  .titulos {
+    height: 400px;
+    background-image: url("./asset/img/WhatsApp Image 2023-05-04 at 15.22.48.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
@@ -524,7 +532,6 @@ footer {
   .iconos {
     display: flex;
     left: 45%;
-    flex-direction: column;
   }
 
   .email {
@@ -560,6 +567,14 @@ footer {
     font-size: 50px;
     top: 100%;
     display: flex;
+    justify-content: center;
+  }
+  .titulos {
+    height: 850px;
+    background-image: url("./asset/img/WhatsApp Image 2023-05-04 at 15.22.48.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
   }
   .subtitulo {
@@ -659,6 +674,14 @@ footer {
 @media screen and (min-width: 992px) {
   .subtitulo {
     left: 20%;
+  }
+  .titulos {
+    height: 900px;
+    background-image: url("./asset/img/WhatsApp Image 2023-05-04 at 15.22.48.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .text-quem-somos {
     margin-top: 50px;
