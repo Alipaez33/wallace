@@ -72,13 +72,14 @@ div button {
 h1 {
   font-size: 60px;
   display: flex;
-  top: 100%;
+  top: 80%;
   padding: 10px;
   text-align: center;
   left: 10%;
   color: white;
   text-shadow: 0 0 8px rgb(0, 0, 0, 0.8);
 }
+
 .subtitulo {
   font-size: 30px;
   display: flex;
